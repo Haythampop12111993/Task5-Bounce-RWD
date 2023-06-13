@@ -1,0 +1,198 @@
+@media (max-width: 1850px) {
+  header .container .bg-img-content .bg-img .content {
+    width: 450px;
+    font-size: 1.5rem;
+  }
+  header .container .bg-img-content .bg-img .content h1 {
+    font-size: 2rem;
+  }
+  header .container .bg-img-content .bg-img .content input + button {
+    transform: translateX(-6px);
+  }
+  header .container .bg-img-content .bg-img .content i {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1700px) {
+  .logo-links .links {
+    flex: 0.7;
+  }
+}
+@media (max-width:1530px) {
+  .sup-contet:nth-of-type(2) .contet-img div {
+      left: 85%;
+    }
+}
+@media (max-width: 1400px) {
+  .logo-links .links {
+    flex: 0.8;
+  }
+}
+@media (max-width:1370px) {
+  .sup-contet:nth-of-type(2) .contet-img div {
+    left: 85%;
+  }
+}
+@media (max-width:1200px) {
+  .footer-head h2 {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width:1180px) {
+  .sup-contet {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 1100px) {
+  .logo-links .links {
+    flex: 0.9;
+  }
+}
+@media (max-width:1060px) {
+  header .container .bg-img-content .bg-img .content {
+    width: 350px;
+  }
+}
+@media (max-width: 1000px) {
+  .logo-links .links ul {
+    display: none;
+  }
+  .footer-head {
+    flex-direction: column;
+  }
+  .footer-head h2:last-of-type {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 1001px) {
+  .nav-icon {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .logo-links .links {
+    flex: 0;
+  }
+  header .container .bg-img-content .bg-img .img-icon {
+    padding: 10px;
+  }
+  header .container .bg-img-content .bg-img .content {
+    width: 400px;
+    transform: translateX(-25%);
+  }
+  header .container .bg-img-content .bg-img .content h1 {
+    font-size: 1.5rem;
+  }
+  header .container .bg-img-content .bg-img {
+    width: 100%;
+  }
+  .container .text-tr {
+    position: absolute;
+    left: 50px;
+    bottom: 30px;
+    font-size: 0.9rem;
+  }
+  header .container .bg-img-content .bg-img .img-icon {
+    font-size: 0.8rem;
+  }
+
+}
+@media (max-width:950px) {
+    .container .text-tr {
+        display: none;
+    }
+    header .container .bg-img-content .bg-img .content {
+        transform: translateX(50%);
+    }
+}
+@media (max-width:768px) {
+    header .container .bg-img-content .bg-img .content {
+        width: 300px;
+    }
+    header .container .bg-img-content .bg-img .content {
+        transform: translateX(0);
+    }
+    header .container .bg-img-content .bg-img .content h1 {
+        font-size: 1.2rem;
+    }
+    header .container .bg-img-content .bg-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .our-co-statis .statis {
+        grid-template-columns: repeat(auto-fill,minmax(250px,0.5fr));
+        gap: 15px;
+        width: 300px;
+    }
+    .statis {
+        width: 100%;
+    }
+    .our-co {
+        padding: 0 10px;
+    }
+    .our-co-statis {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .more-section .container h2 {
+        padding:  30px 10px 0px 10px;
+        font-size: 1.5rem;
+    }
+    .our-co h2 {
+        font-size: 1.5rem;
+    }
+    .our-co p {
+        font-size: 1rem;
+    }
+    .sup-contet:nth-of-type(2) .contet-img div {
+      left: 50%;
+    }
+    .sup-contet > div:last-child {
+      width: 300px;
+    }
+}
+@media (max-width:767px) {
+  .co-input {
+    text-align: center;
+  }
+  .co-input button:nth-of-type(2) {
+    margin-left: 0;
+  }
+  .sup-head {
+    text-align: center;
+    margin: auto;
+  }
+  .more-section .container h2 {
+    text-align: center;
+  }
+  .our-co {
+    text-align: center;
+  }
+  .footer-head input {
+    width: 300px;
+    padding: 20px 15px;
+  }
+  .footer-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-content div:first-child {
+    text-align: center;
+  }
+  .footer-list {
+    gap: 40px;
+  }
+  .sup-contet {
+    margin-left: 0;
+  }
+}
+
+
+
